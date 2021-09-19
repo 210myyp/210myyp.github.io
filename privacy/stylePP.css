@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.PP{
+	display:flex;
+	padding-top:60px;
+	flex-direction: column;
+}
+.PP h2{
+	font-family: Arial;
+	color: white;
+}
+.PP p{
+	padding-top:20px;
+	font-family: Arial;
+	color: white;
+}
+

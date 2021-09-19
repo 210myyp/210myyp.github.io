@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.games{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	
+}
+.sqhead{
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 100%;
+	border: 1px solid black;
+	
+}
+
+.pihead{
+	display: flex;
+	height: 400px;
+	width: 100%;
+	border: 1px solid black;
+}
+.games h2{font-family: Arial; font-style: Bold; color: white; padding-top: 40px;}
