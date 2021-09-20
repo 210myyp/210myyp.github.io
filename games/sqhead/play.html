@@ -34,8 +34,7 @@
              </div>
    </div>
    <div class="main">
-            
-
+            <div class="inner_main">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
@@ -84,11 +83,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/completeSq.loader.js";
+      var loaderUrl = buildUrl + "/sqhead.loader.js";
       var config = {
-        dataUrl: buildUrl + "/completeSq.data",
-        frameworkUrl: buildUrl + "/completeSq.framework.js",
-        codeUrl: buildUrl + "/completeSq.wasm",
+        dataUrl: buildUrl + "/sqhead.data",
+        frameworkUrl: buildUrl + "/sqhead.framework.js",
+        codeUrl: buildUrl + "/sqhead.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "xapmyyp",
         productName: "Square Head Temple Escape",
@@ -145,10 +144,7 @@
       };
       document.body.appendChild(script);
     </script>
-
-            
-        </div>
-
+    </div>
     <div class="footer">
             <div class="inner_footer">
                 <div class="footer_content">
@@ -165,7 +161,7 @@
                     <i>Copyright &copy; XapMyyp. All Rights Reserved.</i>
                 </div>
             </div>
-        </div>
+     </div>
 
   </body>
 </html>
