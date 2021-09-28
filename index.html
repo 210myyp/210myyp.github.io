@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">  
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" type="text/css" href="styleHome.css">
       <title>XapMyyp</title>
@@ -27,31 +28,98 @@
         </div>
         <div class="main">
             <div class="inner_main"> 
-                <div class="latest_content">
-                    <div class="zoom"><a href="games/sqhead/play.html">
-                    <img src="src/sqhead.jpg" alt="sqhead"></a></div>
-                    <div class="zoom"><img src="src/sqheadPoster.png" alt="sqhead1"></div>
+                <div class="first_content">
+                    <div class="con_art">
+                        <img id="image" src="src/sqhead.png" height="480px">
+                    </div>
+                    <div class="small_icons">
+                        <img onclick="change1()" src="src/sqhead.png"  height="80px">
+                        <img onclick="change2()" src="src/sqheadPoster.png"  height="80px">
+                        <img onclick="change3()" src="src/piheadPoster.png"  height="80px">
+                        <img onclick="change4()" src="src/piheadPathetic.png"  height="80px">
+                    </div>
                 </div>
-                
+                <div class="contents">
+                    <div class="game1">
+                        <div class="gameIcon">
+                            <a href="#"><h2>Square Head</h2></a>
+                            <a href="#"><img src="src/sqIcon.png"  height="120px"></a>
+                        </div>
+                        <div class="game1ab">
+                            <div class="game1_screen">
+                                <img onclick="change11()" src="src/sqGP1.png"  height="120px">
+                                <img onclick="change12()" src="src/sqGP2.png"  height="120px">
+                                <img onclick="change13()" src="src/sqGP3.png"  height="120px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game2">
+                        <div class="gameIcon">
+                            <a href="#"><h2>Pi Head</h2></a>
+                            <a href="#"><img src="src/piIcon.png"  height="120px"></a>
+                        </div>
+                        <div class="game2ab">
+                            <div class="game2_screen">
+                                <img onclick="change21()" src="src/piGP1.png"  height="120px">
+                                <img onclick="change22()" src="src/piGP2.png"  height="120px">
+                                <img onclick="change23()" src="src/piGP3.png"  height="120px">
+                            </div>
+                           <div class="googlePlay">
+                                <a href="https://play.google.com/store/apps/details?id=com.xapmyyp.pihead" target="_blank"</a>
+                                <img src="src/gplay.png"  height="50px">
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
             </div>
         </div>
         <div class="footer">
             <div class="inner_footer">
                 <div class="footer_content">
                     <ul>
-                    <li><a href="privacy/policy.html">Privacy Policy</a></li>
                     <li><a href="https://www.facebook.com/210myyp-104965531679045/" target="_blank">Facebook</a></li>
                     <li><a href="https://www.instagram.com/210myyp/" target="_blank">Instagram</a></li>
                     <li><a href="https://www.youtube.com/channel/UCBSI6aelplOtZD4xpeyPmvQ" target="_blank">Youtube</a></li>
                     <li><a href="https://twitter.com/210myyp" target="_blank">Twitter</a></li>
                     <li><a href="https://discord.gg/6BaQTdMbrX" target="_blank">Discord</a></li>
+                    <li><a href="https://www.reddit.com/user/xapmyyp/" target="_blank">Reddit</a></li>
                     </ul> 
                 </div>
                 <div id="bottom">
-                    <i>Copyright &copy; XapMyyp. All Rights Reserved.</i>
+                    <i>Copyright &copy; xapmyyp. All Rights Reserved.</i>
                 </div>
+                <div class="privacy">
+                    <a href="privacy/policy.html"><i>&#183;Privacy</i></a></div>
             </div>
         </div>
+                <script>
+                        function change1(){
+                            document.getElementById('image').src="src/sqhead.png";
+                        }
+                        function change2(){
+                            document.getElementById('image').src="src/sqheadPoster.png";
+                        }
+                        function change3(){
+                            document.getElementById('image').src="src/piheadPoster.png";
+                        }
+                        function change4(){
+                            document.getElementById('image').src="src/piheadPathetic.png";
+                        }
+                        function change11(){
+                            document.getElementById('image').src="src/sqGP1.png";
+                        }function change12(){
+                            document.getElementById('image').src="src/sqGP2.png";
+                        }function change13(){
+                            document.getElementById('image').src="src/sqGP3.png";
+                        }
+                        function change21(){
+                            document.getElementById('image').src="src/piGP1.png";
+                        }function change22(){
+                            document.getElementById('image').src="src/piGP2.png";
+                        }function change23(){
+                            document.getElementById('image').src="src/piGP3.png";
+                        }
+                </script>
     </body>
     </html>
       

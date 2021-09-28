@@ -71,6 +71,7 @@
 }
 .inner_main{
 	display: flex;
+	flex-direction:column;
 	height: 100%;
 	width: 1000px;
 }
@@ -113,10 +114,15 @@
 }
 
 #bottom{
-	
 	color: #566573;
 	font-family: Arial;
 	background-color: #17202A;
+}
+.privacy a i{
+	padding-left:20px;
+	color: #808B96;
+	font-family: Arial;
+	text-decoration: underline;
 }
 
 

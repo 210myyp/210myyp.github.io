@@ -30,11 +30,57 @@
                 <div class="games">
                     <h2>Games</h2>
                     <div class="sqhead">
-                        <div><a href="sqhead/play.html">
-                        <img src = "../src/sqheadPoster.png" alt="Squarehead" width="480" height="320"></a></div>
+                        <div class="game1icon">
+                            <a href="sqhead/play.html"><h3>Square Head</h3></a>
+                            <div class="sqIcon">
+                               <a href="sqhead/play.html"><img src = "../src/sqicon.png" alt="sqIcon" width="120" height="120"></a>
+                            </div>
+                            <div id="playButton">
+                                <a href="sqhead/play.html"><h1>Play</h1></a>
+                            </div>
+                        </div>    
+                        <div class="game1template">
+                            <div class="gameDisplay">
+                                <a href="sqhead/play.html">
+                                <img id="image1" src = "../src/sqheadPoster.png" alt="Squarehead" height="320"></a>
+                            </div>
+                            <div class="gameDisplaysub">
+                                <img onclick="change101()" src = "../src/sqhead.png" alt="Squarehead" height="80">
+                                <img onclick="change102()" src = "../src/sqheadPoster.png" alt="Squarehead" height="80">
+                                <img onclick="change103()" src = "../src/sqGP1.png" alt="Squarehead" height="80">
+                                <img onclick="change104()" src = "../src/sqGP2.png" alt="Squarehead" height="80">
+                                <img onclick="change105()" src = "../src/sqGP3.png" alt="Squarehead" height="80">
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="pihead">
+                        <div class="game2icon">
+                            <a href="https://play.google.com/store/apps/details?id=com.xapmyyp.pihead" target="_blank">
+                            <h3>Pi Head</h3></a>
+                            <div class="piIcon">
+                               <a href="https://play.google.com/store/apps/details?id=com.xapmyyp.pihead" target="_blank">
+                               <img src = "../src/piIcon.png" alt="piIcon" width="120" height="120"></a>
+                            </div>
+                            <div id="playButton2">
+                                <a href="https://play.google.com/store/apps/details?id=com.xapmyyp.pihead" target="_blank">
+                                <img src = "../src/gplay.png" alt="googleplay" width="120" height="50"></a>
+                            </div>
+                        </div>    
+                        <div class="game2template">
+                            <div class="game2Display">
+                                <a href="https://play.google.com/store/apps/details?id=com.xapmyyp.pihead" target="_blank">
+                                <img id="image2" src = "../src/piheadPoster.png" alt="Pihead" height="320"></a>
+                            </div>
+                            <div class="game2Displaysub">
+                                <img onclick="change201()" src = "../src/piGP1.png" alt="Squarehead" height="80">
+                                <img onclick="change202()" src = "../src/piGP2.png" alt="Squarehead" height="80">
+                                <img onclick="change203()" src = "../src/piGP3.png" alt="Squarehead" height="80">
+                                <img onclick="change204()" src = "../src/piGP4.png" alt="Squarehead" height="80">
+                                <img onclick="change205()" src = "../src/piGP5.png" alt="Squarehead" height="80">
 
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -44,19 +90,54 @@
             <div class="inner_footer">
                 <div class="footer_content">
                     <ul>
-                    <li><a href="../privacy/policy.html">Privacy Policy</a></li>
                     <li><a href="https://www.facebook.com/210myyp-104965531679045/" target="_blank">Facebook</a></li>
                     <li><a href="https://www.instagram.com/210myyp/" target="_blank">Instagram</a></li>
                     <li><a href="https://www.youtube.com/channel/UCBSI6aelplOtZD4xpeyPmvQ" target="_blank">Youtube</a></li>
                     <li><a href="https://twitter.com/210myyp" target="_blank">Twitter</a></li>
                     <li><a href="https://discord.gg/6BaQTdMbrX" target="_blank">Discord</a></li>
+                    <li><a href="https://www.reddit.com/user/xapmyyp/" target="_blank">Reddit</a></li>
                     </ul> 
                 </div>
                 <div id="bottom">
-                    <i>Copyright &copy; XapMyyp. All Rights Reserved.</i>
+                    <i>Copyright &copy; xapmyyp. All Rights Reserved.</i>
                 </div>
+                <div class="privacy">
+                    <a href="../privacy/policy.html"><i>&#183;Privacy</i></a></div>
             </div>
         </div>
+        <script>
+             function change101(){
+                            document.getElementById('image1').src="../src/sqhead.png";
+             }
+             function change102(){                       
+                            document.getElementById('image1').src="../src/sqheadPoster.png";
+             }
+             function change103(){                       
+                            document.getElementById('image1').src="../src/sqGP1.png";
+             }
+             function change104(){                       
+                            document.getElementById('image1').src="../src/sqGP2.png";
+             }
+             function change105(){                       
+                            document.getElementById('image1').src="../src/sqGP3.png";
+             }
+
+             function change201(){
+                            document.getElementById('image2').src="../src/piGP1.png";
+             }
+             function change202(){
+                            document.getElementById('image2').src="../src/piGP2.png";
+             }
+             function change203(){
+                            document.getElementById('image2').src="../src/piGP3.png";
+             }
+             function change204(){
+                            document.getElementById('image2').src="../src/piGP4.png";
+             }
+             function change205(){
+                            document.getElementById('image2').src="../src/piGP5.png";
+             }
+        </script>
     </body>
     </html>
       
