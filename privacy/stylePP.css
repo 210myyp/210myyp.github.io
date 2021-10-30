@@ -4,12 +4,19 @@
 	list-style: none;
 	text-decoration: none;
 }
+div.PP {
+	width: 1000px;
+	height: 1080px;
+	overflow-y: scroll;
+}
+
 .PP{
 	display:flex;
 	padding-top:60px;
 	flex-direction: column;
 }
-.PP h2{
+
+.PP h2, h1, h3, li{
 	font-family: Arial;
 	color: white;
 }
@@ -18,4 +25,5 @@
 	font-family: Arial;
 	color: white;
 }
+
 
