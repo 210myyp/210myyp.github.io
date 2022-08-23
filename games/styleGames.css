@@ -5,10 +5,10 @@
 	text-decoration: none;
 }
 .games{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+	display: block;
 }
+.games h2{font-family: Arial; font-style: Bold; color: white; padding: 20px 20px;}
+
 .sqhead{
 	display: flex;
 	background-color: #212121;
@@ -70,7 +70,6 @@
 }
 .game2Displaysub img{
 	cursor:pointer;
-	padding:10px;
 }
 
 .game2Display{
@@ -83,7 +82,7 @@
 .ptoz{
 	display: flex;
 	background-color: #212121;
-	height: 300px;
+	height: 200px;
 	width: 100%;
 }
 .game3icon{
@@ -104,9 +103,12 @@
 	font-family: Arial;
 	text-align: center;
 }
+.game3template{
+	padding:60px 100px;
+}
 .game3Display{
 	display: flex;
 	background-color: #FFBF00;
-	justify-content: center;
+	
 }
-.games h2{font-family: Arial; font-style: Bold; color: white; padding-top: 40px;}
+

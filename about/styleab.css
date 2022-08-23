@@ -6,7 +6,7 @@
 }
 .PP{
 	display:flex;
-	padding-top:60px;
+	padding:60px 120px;
 	flex-direction: column;
 }
 .PP h2{
