@@ -6,6 +6,7 @@
 }
 .PP{
 	display:flex;
+	height:880px;
 	padding:60px 120px;
 	flex-direction: column;
 }
